@@ -1,0 +1,47 @@
+.page {
+    max-width: 1100px;
+    max-width: 1600px;
+    margin: 0 auto;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+}
+
+body {
+}
+
+.header{
+    display:flex;
+    height:10vh;
+    margin:0;
+    border:1px solid red;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.header__nav {
+}
+
+.nav__ul{
+    display:flex;
+    margin:0 3vw 0 0;
+    align-items: center;
+    margin-right: 10px;
+
+}
+
+.nav__link {
+    display:block;
+    margin-right: 10px;
+    background-color: #ececed;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2rem;
+    margin:0px;
+    border-left:1px solid blue;
+    border-right:1px solid blue;    
+    text-transform: uppercase;
+}
+
+.header__nav ul li:hover{
+    opacity: 0.5;
+    transition:all 0.5 ease;
+}
